@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int num1,num2,num3;
+printf("enter the student marks:");
+scanf("%d",&num1,&num2,&num3);
+if(num1>90)
+printf("A+");
+else if(num1>80)
+printf("A");
+else
+printf("FAIL");
+return 0;
+}
